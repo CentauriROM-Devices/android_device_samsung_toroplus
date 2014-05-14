@@ -8,15 +8,15 @@ TARGET_SCREEN_WIDTH := 720
 # device
 $(call inherit-product-if-exists, device/samsung/toroplus/full_toroplus.mk)
 
-# Inherit some common liquid stuff.
-$(call inherit-product, vendor/liquid/config/common_phone.mk)
+# Inherit some common CentauriROM stuff.
+$(call inherit-product, vendor/centauri/config/common_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/centauri/config/nfc_enhanced.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := toroplus
-PRODUCT_NAME := liquid_toroplus
+PRODUCT_NAME := centauri_toroplus
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung

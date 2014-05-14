@@ -25,7 +25,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	
 # OTA ID
 PRODUCT_PROPERTY_OVERRIDES += \
-    otaupdater.otaid=liquidtoroplus
+    otaupdater.otaid=centauritoroplus
 
 $(call inherit-product, device/samsung/tuna/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/toroplus/toroplus-vendor.mk)
